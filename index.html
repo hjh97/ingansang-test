@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>「해변의 카프카」 속 인간 유형</title>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-4">
+    <h1 class="text-2xl font-bold mb-4">「해변의 카프카」 속 인간 유형</h1>
+    <div id="startPage">
+      <p class="mb-4">당신은 6가지 유형 중 하나로 구별될 겁니다. 그러나 거칠은 모래 폭풍 속에 들어가야만 하는 우리 나이의 특성상 변하는 것은 당연합니다. 그러니 어떠한 '정함'에 있어 너무 얽매이진 마십시오. 너무 걱정하지 마세요. 무언가를 원하는 감정과 배척하려는 감정이 공존한다면, 원하지 않는 형태로 언젠가 다가오게 될 겁니다. 당신은 어떠한 감정을 가지지 않으면 안 됩니다, 그니까, 어떤 형태로든 과거는 환상이 될 것이고요, 변하게 될 거라구요.  </p>
+      <button id="startBtn" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Start</button>
+    </div>
+    <div id="questionPage" class="hidden">
+      <h2 class="text-xl font-bold mb-4" id="questionText"></h2>
+      <div id="options"></div>
+      <button id="nextBtn" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded mt-4">Next</button>
+    </div>
+    <div id="resultPage" class="hidden">
+      <h2 class="text-xl font-bold mb-4">Result</h2>
+      <p id="resultText" class="mb-4 font-bold"></p>
+      <button id="restartBtn" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
